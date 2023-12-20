@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <!-- Head -->
+    <head>
+        <title>Sarah Bench, PhD</title>
+        <link rel="stylesheet" href="index.css">
+        <!-- <script type="text/javascript" src="javascript/index.js"></script> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/c3709ee572.js" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            function specialtyText(char) {
+                for (let i = 1; i < 5; i++) {
+                    document.getElementById("spec-".concat(i)).style.backgroundColor = "#2f2faa";
+                    document.getElementById("spec-".concat(i)).style.color = "#ffffff";
+                }
+                var content = ""
+                if (char == 'a') {
+                    content = "anxiety content";
+                    document.getElementById("spec-1").style.backgroundColor = "#b4ecf9";
+                    document.getElementById("spec-1").style.color = "#2f2faa";
+                }
+                else if (char == 'd') {
+                    content = "depression content";
+                    document.getElementById("spec-2").style.backgroundColor = "#b4ecf9";
+                    document.getElementById("spec-2").style.color = "#2f2faa";
+                }
+                else if  (char == 'r') {
+                    content = "peer relationships content";
+                    document.getElementById("spec-3").style.backgroundColor = "#b4ecf9";
+                    document.getElementById("spec-3").style.color = "#2f2faa";
+                }
+                else {
+                    content = "career path content";
+                    document.getElementById("spec-4").style.backgroundColor = "#b4ecf9";
+                    document.getElementById("spec-4").style.color = "#2f2faa";
+                }
+                document.getElementById("specialty-text").textContent = content;
+            }
+        </script>
+        <!-- Insert a custom favicon here -->
+    </head>
+
+    <!-- Body-->
+    <body>
+
+        <!-- Nav Bar -->
+        <div class="navbar">
+            <span>
+            <h1>Sarah Bench, PhD</h1>
+                <nav>
+                    <center>
+                        <a href="#home-intro-bio">Home</a>
+                        <a href="#home-about-me">About Me</a>
+                        <a href="#home-specialties">Specialties</a>
+                        <a href="#home-faq">FAQ</a>
+                        <a href="#home-contact">Contact</a>
+                    </center>
+                </nav>
+            </span>
+        </div>
+        <!-- Nav Bar -->
+        
+        <!-- Nav Bar Padding -->
+        <br> <br> <br> <br> <br> <br>
+        <!-- Nav Bar Padding -->
+
+        <!-- Intro -->
+        <div class="intro-bio" id="home-intro-bio">
+            <center>
+                <img src="img/sb_head_1.jpeg" width="33%" height="33%">
+                <p>
+                    I am a clinical psychologist specializing in the treatment of children, adolescents, young adults,
+                    and their parents, with an expertise in interpersonal, psychodynamic psychotherapy. I worked as a school
+                    psychologist in independent schools for over 10 years, supporting students with both social and academic
+                    challenges. The students I work with typically struggle with anxiety and depression, learning and attention
+                    difficulties, and relationships. When working with young adults, I see people who, perhaps like you, feel
+                    stuck as they try to carve out a career path, and seek out and maintain intimate relationships.
+                </p>
+            </center>
+        </div>
+        <!-- Intro -->
+
+
+        <!-- About Me -->
+        <div class="gray-container" id="home-about-me">
+            <center>
+                <h1>About Me</h1>
+                <span>
+                    <div class="about-me-section">
+                        <h2>My Philosophy</h2>
+                        <p class="philosophy-text">
+                            I work from an interpersonal perspective, which is insight-oriented so that you gain a better
+                            understanding of yourself, your history and the patterns in relationships that can leave you
+                            stuck. I also use cognitive-behavioral strategies to help you set and achieve goals, and to
+                            manage symptoms of anxiety and depression.
+                        </p>
+                    </div>
+                    <p class="inline-spacing"> </p>
+                    <div class="about-me-section">
+                        <h2>My Background</h2>
+                        <div class="background-entry">
+                            <i class="fa-solid fa-graduation-cap fa-2xl"></i>
+                            <h4>&ensp; University of Michigan, Class of 1993</h4>
+                        </div>
+                        <div class="background-entry">
+                            <i class="fa-solid fa-scroll fa-2xl"></i>
+                            <h4>&emsp;Hofstra University, PhD, 1998</h4>
+                        </div>
+                        <div class="background-entry">
+                            <i class="fa-solid fa-chalkboard-user fa-2xl"></i>
+                            <h4>&ensp; Hofstra University, Postdoctoral</h4>
+                        </div>
+                        <div class="background-entry">
+                            <i class="fa-solid fa-school fa-2xl"></i>
+                            <h4>&ensp; School psychologist, 10+ years</h4>
+                        </div>
+                    </div>
+                </span>
+            </center>
+        </div>
+        <!-- About Me -->
+
+
+        <!-- Specialties -->
+        <div class="white-container" id="home-specialties">
+            <center>
+                <h1>Specialties</h1>
+            </center>
+            <div class="specialty-button-row">
+                <center>
+                    <button id="spec-1" onclick="specialtyText('a')">Anxiety</button>
+                    <button id="spec-2" onclick="specialtyText('d')">Depression</button>
+                    <button id="spec-3" onclick="specialtyText('r')">Relationships</button>
+                    <button id="spec-4" onclick="specialtyText('c')">Career Paths</button>
+                </center>
+                <p id="specialty-text">Click a specialty above to learn more...</p>
+            </div>
+        </div>
+        <!-- Specialties -->
+
+        <!-- FAQ -->
+        <div class="gray-container" id="home-faq">
+            <center>
+                <h1>Frequently Asked Questions</h1>
+            </center>
+            <div class="faq-content">
+                <h2>Do you offer remote options?</h2>
+                <li>Yes! I offer several zoom options. <a href="#home-contact">Contact me</a> for further information</li>
+            </div>
+            <div class="faq-content">
+                <h2>Do you accept insurance?</h2>
+                <li>I'm not quite sure. Ask your insurance provider</li>
+            </div>
+            <div class="faq-content">
+                <h2>How long are sessions?</h2>
+                <li>I offer several session offers. I am very flexible, and I will find a session length that works best for you
+                    and your family. Most commonly, my sessions are 30, 45, and 60 minutes long.</li>
+            </div>
+        </div>
+        <!-- FAQ -->
+
+        <!-- Contact -->
+        <div class="white-container" id="home-contact">
+            <center>
+                <h1>Contact</h1>
+            </center>
+        </div>
+        <!-- Contact -->
+    </body>
+
+</html>

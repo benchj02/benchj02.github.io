@@ -1,0 +1,120 @@
+.navbar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #daf8ff;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: hidden;
+} .navbar a {
+    padding: 10px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    display: inline;
+} .navbar a:hover {
+    background-color: #2f2faa;
+    color: #b4ecf9;
+} .navbar h1 {
+    display: inline;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.intro-bio {
+    position: inherit;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.intro-bio h1 {
+    font-size: 32px;
+}
+
+.intro-bio p {
+    font-size: 20px;
+}
+
+.inline-spacing {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.gray-container {
+    background-color:#ededed;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.about-me-section {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    border-style: solid;
+    border-color: #2f2faa;
+    /* border-radius: 15%; */
+    width: 450px;
+    height: 325px;
+} .about-me-section h2 {
+    color: #2f2faa;
+}
+.philosophy-text {
+    margin-left: 15px;
+    margin-right: 15px;
+    float: left;
+    font-size: 20px;
+}
+.background-entry {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    float: left;
+} .background-entry h4 {
+    display: inline;
+    font-size: 20px;
+} .background-entry i {
+    color: #2f2faa;
+} .background-entry p {
+    font-size: 18px;
+}
+
+.white-container {
+    background-color:#FFF;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.specialty-button-row {
+    margin-left: 250px;
+    margin-right: 250px;
+} .specialty-button-row button {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    background-color: #2f2faa;
+    color: #FFFFFF;
+} .specialty-button-row p {
+    width: 800px;
+    border-style: solid;
+    border-color: #000;
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.faq-content {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 1px;
+} .faq-content h2 {
+    color: #2f2faa;
+} .faq-content li {
+    font-size: 20px;
+} .faq-content li a {
+    color: #2f2faa;
+    text-decoration: underline;
+}
