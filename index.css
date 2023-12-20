@@ -102,15 +102,15 @@
     width: 87%;
     border-style: solid;
     border-color: #000;
-    margin-left: 50px;
+    margin-left: 5%;
     padding: 10px;
     font-size: 18px;
 }
 
 
 .faq-content {
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 16%;
+    margin-right: 16%;
     padding-top: 1px;
 } .faq-content h2 {
     color: #2f2faa;
@@ -144,5 +144,9 @@
 @media screen and (max-width: 800px) {
     .about-me-section {
         width: 80%;
+    }
+    .specialty-button-row button {
+        width: 100%;
+        border-style: solid;
     }
 }
