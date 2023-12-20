@@ -13,27 +13,22 @@
                     document.getElementById("spec-".concat(i)).style.backgroundColor = "#2f2faa";
                     document.getElementById("spec-".concat(i)).style.color = "#ffffff";
                 }
-                var content = ""
+                var content = "career path content";
+                var buttonID = "4";
                 if (char == 'a') {
                     content = "anxiety content";
-                    document.getElementById("spec-1").style.backgroundColor = "#b4ecf9";
-                    document.getElementById("spec-1").style.color = "#2f2faa";
+                    buttonID = "1";
                 }
                 else if (char == 'd') {
                     content = "depression content";
-                    document.getElementById("spec-2").style.backgroundColor = "#b4ecf9";
-                    document.getElementById("spec-2").style.color = "#2f2faa";
+                    buttonID = "2";
                 }
                 else if  (char == 'r') {
                     content = "peer relationships content";
-                    document.getElementById("spec-3").style.backgroundColor = "#b4ecf9";
-                    document.getElementById("spec-3").style.color = "#2f2faa";
+                    buttonID = "3";
                 }
-                else {
-                    content = "career path content";
-                    document.getElementById("spec-4").style.backgroundColor = "#b4ecf9";
-                    document.getElementById("spec-4").style.color = "#2f2faa";
-                }
+                document.getElementById("spec-".concat(buttonID)).style.backgroundColor = "#b4ecf9";
+                document.getElementById("spec-".concat(buttonID)).style.color = "#2f2faa";
                 document.getElementById("specialty-text").textContent = content;
             }
         </script>
@@ -164,6 +159,24 @@
             <center>
                 <h1>Contact</h1>
             </center>
+            <div class="contact-info">
+                <i class="fa-solid fa-phone fa-xl"></i>
+                <p>&emsp;<a>+1 (999) 888 - 7777</a></p>
+                <br>
+                <i class="fa-solid fa-envelope fa-xl"></i>
+                <p>&emsp;<a>email@gmail.com</a></p>
+                <br>
+                <i class="fa-solid fa-location-dot fa-xl"></i>
+                <p>&emsp;115 E 57th St #640, New York, NY 10022</p>
+                <br>
+                <p>
+                    Please feel free to contact me via phone or email.
+                </p>
+            </div>
+
+            <div class="contact-address">
+                <a target="_blank" href="https://www.google.com/maps/dir//Sarah+A.+Bench,+PhD,+115+E+57th+St+%23640,+New+York,+NY+10022/@40.7614605,-73.970928,18z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89c259a90a370b29:0x28827f5d83fb6c61!2m2!1d-73.9698484!2d40.7614909!3e2?entry=ttu"><img src="img/location.png" width="400px"></a>
+            </div>
         </div>
         <!-- Contact -->
     </body>
