@@ -19,6 +19,9 @@
     display: inline;
     padding-left: 15px;
     padding-bottom: 10px;
+} .navbar hr {
+    border: none;
+    background-color: #b4ecf9;
 }
 
 .intro-bio {
@@ -141,7 +144,7 @@
     margin-left: 100px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 810px) {
     .about-me-section {
         width: 80%;
     }
