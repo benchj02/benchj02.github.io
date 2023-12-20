@@ -23,16 +23,16 @@
 
 .intro-bio {
     position: inherit;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 
 .intro-bio h1 {
-    font-size: 32px;
+    font-size: large;
 }
 
 .intro-bio p {
-    font-size: 20px;
+    font-size: large;
 }
 
 .inline-spacing {
@@ -55,8 +55,8 @@
     border-style: solid;
     border-color: #2f2faa;
     /* border-radius: 15%; */
-    width: 450px;
-    height: 325px;
+    width: 30%;
+    height: 50%;
 } .about-me-section h2 {
     color: #2f2faa;
 }
@@ -88,17 +88,18 @@
 }
 
 .specialty-button-row {
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 16%;
+    margin-right: 16%;
 } .specialty-button-row button {
-    width: 200px;
+    width: 22%;
     height: 50px;
     font-size: 18px;
     border: none;
+    padding: none;
     background-color: #2f2faa;
     color: #FFFFFF;
 } .specialty-button-row p {
-    width: 800px;
+    width: 87%;
     border-style: solid;
     border-color: #000;
     margin-left: 50px;
@@ -138,4 +139,10 @@
     display: inline-block;
     margin-top: 20px;
     margin-left: 100px;
+}
+
+@media screen and (max-width: 800px) {
+    .about-me-section {
+        width: 80%;
+    }
 }
