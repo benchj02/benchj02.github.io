@@ -130,6 +130,7 @@
     display: inline-block;
     font-size: 20px;
 } .contact-info i {
+    display: inline-block;
     color: #2f2faa;
 }
 
