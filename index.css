@@ -24,19 +24,19 @@
     background-color: #b4ecf9;
 }
 
+
 .intro-bio {
     position: inherit;
     margin-left: 16%;
     margin-right: 16%;
-}
-
-.intro-bio h1 {
+} .intro-bio img {
+    width: 300px;
+} .intro-bio h1 {
+    font-size: large;
+} .intro-bio p {
     font-size: large;
 }
 
-.intro-bio p {
-    font-size: large;
-}
 
 .inline-spacing {
     display: inline-block;
@@ -149,9 +149,18 @@
     margin-left: 100px;
 }
 
+@media screen and (max-width: 1090px) {
+    .contact-wide {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 810px) {
     .about-me-section {
         width: 80%;
+    }
+    .intro-bio img {
+        width: 225px;
     }
     .inline-spacing {
         display: none;
@@ -164,7 +173,10 @@
         width: 100%;
         border-style: solid;
     }
-    .contact-wide {
-        display: none;
+    .contact-info {
+        margin-right: 16%;
+    }
+    .contact-address img {
+        width: 225px;
     }
 }
