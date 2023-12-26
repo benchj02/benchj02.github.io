@@ -131,8 +131,8 @@
 
 
 .contact-info {
-    margin-left: 250px;
-    margin-top: 20px;
+    margin-left: 16%;
+    margin-top: 1.5%;
     width: 400px;
     display: inline-block;
 } .contact-info p {
@@ -163,5 +163,8 @@
     .specialty-button-row button {
         width: 100%;
         border-style: solid;
+    }
+    .contact-wide {
+        display: none;
     }
 }
