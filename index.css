@@ -133,7 +133,6 @@
 .contact-info {
     margin-left: 16%;
     margin-top: 1.5%;
-    width: 400px;
     display: inline-block;
 } .contact-info p {
     display: inline-block;
@@ -147,11 +146,25 @@
     display: inline-block;
     margin-top: 20px;
     margin-left: 100px;
+} .contact-address img {
+    width: 400px;
 }
 
-@media screen and (max-width: 1090px) {
+
+
+
+
+@media screen and (max-width: 1085px) {
     .contact-wide {
         display: none;
+    }
+    .contact-address {
+        display: block;
+        margin-left: 16%;
+        height: 20%;
+    }
+    .contact-info {
+        margin-bottom: 3%;
     }
 }
 
