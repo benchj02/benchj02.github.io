@@ -3,27 +3,27 @@
     position: fixed;
     width: 100%;
     background-color: #edcbd2;
-    padding-top: 18px;
+    padding-top: 26px;
     padding-bottom: 18px;
     overflow: hidden;
 } .navbar h1 {
     color: #e3856b;
-    font-size: 40px;
+    font-size: 42px;
 } .navbar a {
     padding: 10px 10px;
     font-size: 18px;
     text-decoration: none;
     color: #e3856b;
     display: inline;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } .navbar a:hover {
     /* background-color: #ffffff; */
     color: #80c4b7;
 } .navbar h1 {
     display: inline;
-    padding-left: 15px;
+    padding-left: 20px;
     padding-bottom: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Palatino, 'Times New Roman', Times, serif;
 } .navbar hr {
     border: none;
     background-color: #edcbd2;
@@ -34,6 +34,7 @@
     position: inherit;
     margin-left: 18%;
     margin-right: 18%;
+    margin-bottom: 25px;
 } .intro-bio img {
     width: 300px;
     border-radius: 2px;
@@ -42,7 +43,7 @@
     font-size: large;
 } .intro-bio p {
     font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #e3856b;
 }
 
@@ -56,7 +57,7 @@
     background-color:#ededed;
     padding-top: 10px;
     padding-bottom: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Palatino, 'Times New Roman', Times, serif;
 } .gray-container h1 {
     color: #000;
 }
@@ -70,9 +71,9 @@
     border-style: solid;
     border-color: #e3856b;
     /* border-radius: 15%; */
-    width: 28%;
+    width: 29%;
     height: 50%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } .about-me-section h2 {
     color: #e3856b;
 }
@@ -108,7 +109,7 @@
     background-color:#FFF;
     padding-top: 10px;
     padding-bottom: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Palatino, 'Times New Roman', Times, serif;
 }
 
 .specialty-button-row {
@@ -122,6 +123,7 @@
     padding: none;
     background-color: #e3856b;
     color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } .specialty-button-row p {
     width: 87%;
     border-style: solid;
@@ -129,7 +131,7 @@
     margin-left: 5%;
     padding: 10px;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -139,10 +141,10 @@
     padding-top: 1px;
 } .faq-content h2 {
     color: #e3856b;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Palatino, 'Times New Roman', Times, serif;
 } .faq-content li {
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } .faq-content li a {
     color: #80c4b7;
     text-decoration: underline;
@@ -156,13 +158,13 @@
 } .contact-info p {
     display: inline-block;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } .contact-info i {
     display: inline-block;
     color: #80c4b7;
 } .contact-info h3 {
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #e3856b;
 }
 
