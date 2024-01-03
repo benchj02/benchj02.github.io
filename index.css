@@ -221,3 +221,12 @@
         width: 225px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .navbar a {
+        font-size: 16px;
+    }
+    .intro-bio p {
+        font-size: small;
+    }
+}
