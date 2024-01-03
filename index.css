@@ -2,20 +2,23 @@
     top: 0;
     position: fixed;
     width: 100%;
-    background-color: #daf8ff;
+    background-color: #edcbd2;
     padding-top: 18px;
     padding-bottom: 18px;
     overflow: hidden;
+} .navbar h1 {
+    color: #e3856b;
+    font-size: 40px;
 } .navbar a {
     padding: 10px 10px;
     font-size: 18px;
     text-decoration: none;
-    color: #000;
+    color: #e3856b;
     display: inline;
     font-family: sans-serif;
 } .navbar a:hover {
-    background-color: #2f2faa;
-    color: #b4ecf9;
+    /* background-color: #ffffff; */
+    color: #80c4b7;
 } .navbar h1 {
     display: inline;
     padding-left: 15px;
@@ -23,7 +26,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 } .navbar hr {
     border: none;
-    background-color: #b4ecf9;
+    background-color: #edcbd2;
 }
 
 
@@ -33,11 +36,14 @@
     margin-right: 18%;
 } .intro-bio img {
     width: 300px;
+    border-radius: 2px;
+    border: #edcbd2;
 } .intro-bio h1 {
     font-size: large;
 } .intro-bio p {
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
+    color: #e3856b;
 }
 
 
@@ -51,6 +57,8 @@
     padding-top: 10px;
     padding-bottom: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+} .gray-container h1 {
+    color: #000;
 }
 
 .about-me-section {
@@ -60,19 +68,20 @@
     padding-bottom: 10px;
     display: inline-block;
     border-style: solid;
-    border-color: #2f2faa;
+    border-color: #e3856b;
     /* border-radius: 15%; */
     width: 28%;
     height: 50%;
     font-family: Arial, Helvetica, sans-serif;
 } .about-me-section h2 {
-    color: #2f2faa;
+    color: #e3856b;
 }
 .philosophy-text {
     margin-left: 15px;
     margin-right: 15px;
     float: left;
     font-size: 20px;
+    color: #000;
 }
 .background-entry {
     margin-left: 15px;
@@ -85,7 +94,7 @@
     font-size: 17px;
     text-decoration: none;
 } .background-entry i {
-    color: #2f2faa;
+    color: #80c4b7;
 } .background-entry p {
     font-size: 18px;
 }
@@ -111,8 +120,8 @@
     font-size: 18px;
     border: none;
     padding: none;
-    background-color: #2f2faa;
-    color: #FFFFFF;
+    background-color: #e3856b;
+    color: #ffffff;
 } .specialty-button-row p {
     width: 87%;
     border-style: solid;
@@ -129,13 +138,13 @@
     margin-right: 18%;
     padding-top: 1px;
 } .faq-content h2 {
-    color: #2f2faa;
+    color: #e3856b;
     font-family: 'Times New Roman', Times, serif;
 } .faq-content li {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 } .faq-content li a {
-    color: #2f2faa;
+    color: #80c4b7;
     text-decoration: underline;
 }
 
@@ -150,7 +159,11 @@
     font-family: Arial, Helvetica, sans-serif;
 } .contact-info i {
     display: inline-block;
-    color: #2f2faa;
+    color: #80c4b7;
+} .contact-info h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e3856b;
 }
 
 .contact-address {
